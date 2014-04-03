@@ -1,6 +1,6 @@
 all: cv.pdf
 
-cv.pdf: cv.tex
+cv.pdf: *.tex
 	latexmk -pdf cv.tex
 
 clean:
